@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Picks & Trends — Your curated storefront for the best finds on Amazon. Discover trending tech, fashion, home essentials, and more handpicked just for you.">
+  <meta name="keywords" content="Amazon finds, curated picks, trending products, influencer recommendations, best Amazon products">
+  <meta name="author" content="Picks & Trends">
+  <meta property="og:title" content="Picks & Trends — Curated Finds You'll Love">
+  <meta property="og:description" content="Discover the best Amazon products handpicked for you. Trending tech, fashion, home & kitchen, fitness, and books.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Picks & Trends — Curated Finds You'll Love ✨</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+</head>
+<body>
+
+  <!-- Animated Background Blobs -->
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <header class="hero" id="hero">
+    <div class="hero-content">
+      <!-- Profile Avatar -->
+      <div class="profile-avatar">
+        <div class="profile-avatar-inner">P&T</div>
+      </div>
+
+      <!-- Badge -->
+      <div class="hero-badge">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        Curated by Picks &amp; Trends
+      </div>
+
+      <!-- Title -->
+      <h1 class="hero-title">
+        Discover My <span>Favorite Finds</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-subtitle">
+        Handpicked products I personally love and recommend. From everyday essentials to hidden gems — all in one place.
+      </p>
+
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="#" class="social-link" id="social-instagram" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/>
+          </svg>
+        </a>
+        <a href="#" class="social-link" id="social-tiktok" aria-label="TikTok" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.88-2.88 2.89 2.89 0 012.88-2.88c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.3a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.87a8.28 8.28 0 004.76 1.5v-3.5a4.85 4.85 0 01-1-.18z"/>
+          </svg>
+        </a>
+        <a href="#" class="social-link" id="social-youtube" aria-label="YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+          </svg>
+        </a>
+      </div>
+
+      <!-- CTA Buttons -->
+      <a href="#products" class="deal-cta" id="hero-cta-shop" style="margin: 0 auto;">
+        Shop My Picks
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;">
+          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- ==================== CATEGORIES SECTION ==================== -->
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Browse</span>
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Explore my curated collections across all your favorite categories</p>
+      </div>
+
+      <div class="categories-grid">
+        <div class="category-card animate-on-scroll" id="cat-tech" data-category="tech">
+          <img src="images/category-tech.jpg" alt="Tech & Gadgets collection" loading="lazy">
+          <div class="category-overlay">
+            <span class="category-icon">📱</span>
+            <span class="category-name">Tech & Gadgets</span>
+            <span class="category-count">Coming Soon</span>
+          </div>
+        </div>
+        <div class="category-card animate-on-scroll" id="cat-fashion" data-category="fashion">
+          <img src="images/category-fashion.jpg" alt="Fashion & Beauty collection" loading="lazy">
+          <div class="category-overlay">
+            <span class="category-icon">👜</span>
+            <span class="category-name">Fashion & Beauty</span>
+            <span class="category-count">Coming Soon</span>
+          </div>
+        </div>
+        <div class="category-card animate-on-scroll" id="cat-home" data-category="home">
+          <img src="images/category-home.jpg" alt="Home & Kitchen collection" loading="lazy">
+          <div class="category-overlay">
+            <span class="category-icon">🏡</span>
+            <span class="category-name">Home & Kitchen</span>
+            <span class="category-count">Coming Soon</span>
+          </div>
+        </div>
+        <div class="category-card animate-on-scroll" id="cat-fitness" data-category="fitness">
+          <img src="images/category-fitness.jpg" alt="Health & Fitness collection" loading="lazy">
+          <div class="category-overlay">
+            <span class="category-icon">🏋️</span>
+            <span class="category-name">Health & Fitness</span>
+            <span class="category-count">Coming Soon</span>
+          </div>
+        </div>
+        <div class="category-card animate-on-scroll" id="cat-books" data-category="books">
+          <img src="images/category-books.jpg" alt="Books & Stationery collection" loading="lazy">
+          <div class="category-overlay">
+            <span class="category-icon">📚</span>
+            <span class="category-name">Books & Stationery</span>
+            <span class="category-count">Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PRODUCTS SECTION ==================== -->
+  <section class="products-section section" id="products">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">What's Hot</span>
+        <h2 class="section-title">Trending Picks</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">My most loved and recommended products this season</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs animate-on-scroll" id="filter-tabs">
+        <button class="filter-tab active" data-filter="all" id="filter-all">All Picks</button>
+        <button class="filter-tab" data-filter="tech" id="filter-tech">Tech</button>
+        <button class="filter-tab" data-filter="fashion" id="filter-fashion">Fashion</button>
+        <button class="filter-tab" data-filter="home" id="filter-home">Home</button>
+        <button class="filter-tab" data-filter="fitness" id="filter-fitness">Fitness</button>
+        <button class="filter-tab" data-filter="books" id="filter-books">Books</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="products-grid">
+        <!-- Products are rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DEAL OF THE DAY ==================== -->
+  <section class="deal-banner section" id="deal">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label">Limited Time</span>
+        <h2 class="section-title">Deal of the Day</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="deal-card animate-on-scroll">
+        <div class="deal-image">
+          <img src="images/hero-banner.jpg" alt="Deal of the day - Premium lifestyle essentials" loading="lazy">
+          <span class="deal-image-badge">🔥 Hot Deal</span>
+        </div>
+        <div class="deal-content">
+          <div class="deal-timer" id="deal-timer">
+            <div class="timer-block">
+              <span class="timer-number" id="timer-hours">08</span>
+              <span class="timer-label">Hours</span>
+            </div>
+            <div class="timer-block">
+              <span class="timer-number" id="timer-minutes">42</span>
+              <span class="timer-label">Minutes</span>
+            </div>
+            <div class="timer-block">
+              <span class="timer-number" id="timer-seconds">15</span>
+              <span class="timer-label">Seconds</span>
+            </div>
+          </div>
+          <h3 class="deal-title">Premium Lifestyle Essentials Bundle</h3>
+          <p class="deal-description">
+            Everything you need to upgrade your daily routine — rose gold accessories, premium stationery, and cozy home vibes. My absolute favorite set! ✨
+          </p>
+          <div class="deal-price">
+            <span class="price-current">$49.99</span>
+            <span class="price-original">$89.99</span>
+            <span class="price-discount">-44% OFF</span>
+          </div>
+          <a href="https://amazon.com" class="deal-cta" id="deal-cta" target="_blank" rel="noopener">
+            Grab This Deal
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:18px;height:18px;">
+              <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== NEWSLETTER SECTION ==================== -->
+  <section class="newsletter section" id="newsletter">
+    <div class="container">
+      <div class="newsletter-card animate-on-scroll">
+        <div class="newsletter-icon">💌</div>
+        <h2 class="newsletter-title">Never Miss a Deal</h2>
+        <p class="newsletter-text">
+          Get notified about new product drops, exclusive deals, and my latest finds delivered straight to your inbox.
+        </p>
+        <form class="newsletter-form" id="newsletter-form" onsubmit="return false;">
+          <input type="email" class="newsletter-input" id="newsletter-email" placeholder="Your email address" aria-label="Email address" required>
+          <button type="submit" class="newsletter-btn" id="newsletter-submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">Picks & Trends</div>
+        <p class="footer-text">
+          Curated finds from someone who genuinely loves great products. Every link is personally tested & recommended. 💗
+        </p>
+        <div class="footer-links">
+          <a href="#hero" class="footer-link">Home</a>
+          <a href="#categories" class="footer-link">Categories</a>
+          <a href="#products" class="footer-link">Shop</a>
+          <a href="#deal" class="footer-link">Deals</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="footer-social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-link" aria-label="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.88-2.88 2.89 2.89 0 012.88-2.88c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.3a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.87a8.28 8.28 0 004.76 1.5v-3.5a4.85 4.85 0 01-1-.18z"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-social-link" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p>© 2026 Picks & Trends. Made with 💗 | As an Amazon Associate I earn from qualifying purchases.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Navigation -->
+  <nav class="floating-nav" id="floating-nav" aria-label="Quick navigation">
+    <a href="#hero" class="nav-item active">Home</a>
+    <a href="#categories" class="nav-item">Categories</a>
+    <a href="#products" class="nav-item">Shop</a>
+    <a href="#deal" class="nav-item">Deals</a>
+  </nav>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/>
+    </svg>
+  </button>
+
+  <script src="app.js"></script>
+</body>
+</html>
